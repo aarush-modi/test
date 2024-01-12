@@ -73,11 +73,6 @@ progress::-webkit-progress-bar {
   border-radius: 20px;
 }
 
-progress[value]::-webkit-progress-value {
-  background: #ff0000 !important;
-  border-radius: 20px;
-}
-
 .recents {
   p {
     text-align: left;
