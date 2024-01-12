@@ -1,0 +1,205 @@
+body {
+  background-color: #04052e;
+  background-image: url(background.jpg);
+  background-size: contain;
+  background-position-y: -80px;
+  background-repeat: no-repeat;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 1200px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  word-spacing: 70px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+h4 {
+  color: #a54657;
+  font-size: 32px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+a {
+  color: #ffffff;
+  transition: color 0.25s;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+a:hover {
+  color: #a54657;
+}
+
+progress {
+  accent-color: #a54657;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 40px;
+  text-align: end;
+}
+
+progress::-webkit-progress-bar {
+  background: rgb(221, 221, 221);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 20px;
+}
+
+progress[value]::-webkit-progress-value {
+  background: #ff0000 !important;
+  border-radius: 20px;
+}
+
+progress:after {
+  position: relative;
+  left: 100px;
+  top: -15px;
+  content: attr(value) "%";
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.recents {
+  p {
+    text-align: left;
+  }
+}
+
+.coding {
+  text-align: center;
+  width: 50%;
+}
+
+.speaking {
+  text-align: center;
+  width: 50%;
+}
+
+.skills {
+  ion-icon {
+    color: #ffffff;
+    font-size: 35px;
+  }
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.cv {
+  text-align: center;
+  text-decoration: none;
+  border: solid #ffffff;
+  width: 30%;
+  margin: auto;
+}
+
+.quicklinks {
+  text-align: center;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .title {
+    padding: 0%;
+    font-size: 100%;
+    width: 100%;
+    background-size: 100%;
+  }
+  h1 {
+    font-size: 80%;
+    width: 100%;
+    padding-bottom: 8%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    padding: 0%;
+    font-size: 100%;
+    width: 100%;
+    background-size: 100%;
+  }
+
+  h1 {
+    font-size: 100%;
+    width: 100%;
+    padding-bottom: 12%;
+  }
+
+  h2 {
+    font-size: 100%;
+  }
+
+  h3 {
+    font-size: 50%;
+    word-spacing: 15px;
+    padding-top: 0%;
+    padding-bottom: 10%;
+  }
+
+  h4 {
+    padding-top: 10%;
+    font-size: 100%;
+  }
+
+  p {
+    font-size: 100%;
+  }
+
+  a {
+    font-size: 100%;
+  }
+
+  .about {
+    padding: 0%;
+    font-size: 100%;
+    width: 100%;
+  }
+
+  .skills {
+    display: block;
+  }
+
+  .coding {
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .speaking {
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .cv {
+    width: 80%;
+  }
+}
