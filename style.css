@@ -78,15 +78,6 @@ progress[value]::-webkit-progress-value {
   border-radius: 20px;
 }
 
-progress:after {
-  position: relative;
-  left: 100px;
-  top: -15px;
-  content: attr(value) "%";
-  font-size: 24px;
-  color: #ffffff;
-}
-
 .recents {
   p {
     text-align: left;
