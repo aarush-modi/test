@@ -67,11 +67,6 @@ progress {
   text-align: end;
 }
 
-progress::-webkit-progress-bar {
-  background: rgb(221, 221, 221);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
-  border-radius: 20px;
-}
 
 .recents {
   p {
